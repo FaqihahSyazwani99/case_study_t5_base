@@ -1,0 +1,10 @@
+datasets>=2.20
+transformers>=4.44
+accelerate>=0.33
+sentencepiece>=0.1.99
+huggingface_hub>=0.25
+evaluate>=0.4
+sacrebleu>=2.4
+tqdm>=4.66
+python-dotenv>=1.0
+# torch is installed on the GPU pod to match CUDA there
